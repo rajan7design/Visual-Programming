@@ -1,7 +1,12 @@
-﻿using System;
-class Program {
-    static void Main ( string [] args)
+﻿namespace ConsoleApp1
+{
+    class Program
     {
-        Console.WriteLine ( " MR. Rajan");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("MR. Rajan");
+            Question2 question2 = new Question2();
+            question2.Add(3, 4);
+        }
     }
 }
