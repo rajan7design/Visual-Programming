@@ -1,10 +1,9 @@
- namespace ConsoleApp1
-{
+using System;
+
     class Question2
     {
         public void Add(int a, int b)
         {
-            Console.WriteLine(a + b);
+            Console.WriteLine(a + b); 
         }
     }
-}
