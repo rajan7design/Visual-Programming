@@ -6,8 +6,8 @@ class Marks
 {
     public void Mark ( int p, int c, int m )
     {
-
-    Console.WriteLine ( p + c + m );
+        double total = p + c + m;
+    Console.WriteLine ( " The total marks is:" + total );
 
     }
 

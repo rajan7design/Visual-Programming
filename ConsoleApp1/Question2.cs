@@ -4,6 +4,6 @@ using System;
     {
         public void Add(int a, int b)
         {
-            Console.WriteLine(a + b); 
+            Console.WriteLine( " The total sum is:" + a + b); 
         }
     }

@@ -1,8 +1,8 @@
 ﻿using System;
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
          Console.WriteLine("MR. Rajan");
 
@@ -14,5 +14,17 @@
 
          Marks marks = new Marks (); 
          marks.Mark(50, 53, 54 );
+
+         Circle circle = new Circle();
+         circle.radius(6.7);
+
+         Perimeter perimeter = new Perimeter();
+         perimeter.demo(10, 8);
+        
+        SimpleInterest simpleinterest = new SimpleInterest();
+        simpleinterest.Interest(5000, 12, 2 );
+
+        Swap swap = new Swap ();
+        swap.demo(10, 20);
         }
     }

@@ -7,7 +7,7 @@ Declare variables to store your name, age, and city, then display them.
 
 Create two integer variables and print their sum.
 
-3.
+3. 
 
 Declare three variables for Physics, Chemistry, and Mathematics marks, then calculate the total.
 
