@@ -4,7 +4,7 @@
     {
        public static void Main(string[] args)
         {
-         Console.WriteLine("MR. Rajan");
+         
 
          Data o = new Data ();
          o.Dataa(  " Rajan ", 16, " Pokhara, Nepal ");
@@ -26,5 +26,15 @@
 
         Swap swap = new Swap ();
         swap.demo(10, 20);
+
+        Swap2 swap2 = new Swap2 ();
+        swap2.s(20, 21);
+
+        Average average = new Average ();
+        average.Hello( 50, 52, 54, 51, 53);
+
+        Celsius celsius = new Celsius ();
+        celsius.Namaste( 32.4 );
         }
+
     }
