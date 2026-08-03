@@ -35,6 +35,15 @@
 
         Celsius celsius = new Celsius ();
         celsius.Namaste( 32.4 );
+        
+        Smallest smallest = new Smallest ();
+        smallest.Small(6, 7);
+        
+        Vote vote = new Vote ();
+        vote.Voting(19);
+
+        Divide divide = new Divide ();
+        divide.Div(15);
         }
 
     }
