@@ -44,6 +44,9 @@
 
         Divide divide = new Divide ();
         divide.Div(15);
-        }
 
+        Exam exam = new Exam ();
+        exam.Examm();
+        }
+              
     }
