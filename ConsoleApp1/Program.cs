@@ -47,6 +47,9 @@
 
         Exam exam = new Exam ();
         exam.Examm();
+
+        Exam2 exam2 = new Exam2 ();
+        exam2.Exammm();
         }
               
     }
